@@ -1,0 +1,77 @@
+.tarjeta-videos
+  background-image: url(../assets/curso/bg-video.svg)
+  background-size: auto
+  background-position: top
+  background-repeat: no-repeat
+.tarjeta-slyder
+  background-image: url(../assets/curso/bg-slyder.svg)
+  background-size: cover
+  background-position: top
+  background-repeat: no-repeat
+.bg
+  &--1
+    background-color: $color-primario !important
+    &-claro
+      background-color: #BCFFF7 !important
+  &--1-1
+    background-color: #B1DAFA !important
+  &--2
+    background-color: $color-secundario !important
+    &-claro
+      background-color: lighten($color-secundario, 30% ) !important
+  &--3
+    background-color: $color-acento-contenido !important
+    &-claro
+      background-color: #EAE8F5 !important
+  &--4
+    background-color: $color-acento-botones !important
+    &-claro
+      background-color: lighten($color-acento-botones, 30% ) !important
+    &-claro2
+      background-color: #FEFDE5
+.hover
+  transition: transform .4s ease-in-out
+  &:hover
+    transform: scale(1.05)
+.shadow
+  box-shadow: 0 0 1px rgba(0,0,0,0.1)
+.slyder__btn
+  background-color: $color-acento-botones
+  color: $white
+.cajon-adorno
+  position: relative
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: .9%
+    height: 100%
+  &.color-primario 
+    background-color: lighten($color-primario, 30% )
+    &:before
+      background-color: $color-primario 
+  &.color-secundario 
+    background-color: lighten($color-secundario, 30% )
+    &:before
+      background-color: $color-secundario 
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30% )
+    &:before
+      background-color: $color-acento-contenido 
+  &.color-acento-botones 
+    background-color: lighten($color-acento-botones, 30% )
+    &:before
+      background-color: $color-acento-botones 
+.pasos-a__circle
+  background-image: url(../assets/curso/pasos-a.svg)
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  border-radius: 0 !important
+  background-color: white !important
+  div
+    color: white !important
+
+
+  

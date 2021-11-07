@@ -84,8 +84,7 @@
         .cajon-adorno.color-secundario.p-5
           h5.mb-0.mx-4 En todos los modos de transporte, deben implementarse las medidas sanitarias para la atención de la Covid-19, dirigidas a: conductores, propietarios de vehículos, empresas de transporte de carga, pasajeros y operadores de sistemas de transporte.
     p.mb-5 Con el fin de ampliar la dimensión del concepto de contagio, se invita a ver el video <b>“Riesgo exponencial en el contagio del COVID-19”</b>, que explica cómo una persona infectada puede, de manera exponencial, afectar a una gran porción de la población, y que puede encontrar en el material complementario.
-          
-            
+    
         
   
 </template>

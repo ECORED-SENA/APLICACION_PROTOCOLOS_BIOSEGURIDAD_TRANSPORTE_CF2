@@ -8,11 +8,18 @@
   background-size: cover
   background-position: top
   background-repeat: no-repeat
+.bg--pasos
+  background-image: url(../assets/curso/bg--pasos.svg)
+  background-size: cover
+  background-position: top
+  background-repeat: no-repeat
 .bg
   &--1
     background-color: $color-primario !important
     &-claro
       background-color: #BCFFF7 !important
+  &--1-acordeon
+    background-color: $color-primario 
   &--1-1
     background-color: #B1DAFA !important
   &--2
@@ -72,6 +79,14 @@
   background-color: white !important
   div
     color: white !important
+.hover-morado
+  transition: all .2s ease-in-out
+  &:hover
+    background-color: $color-acento-contenido !important
+    h6
+      color: $white !important
+.text-big
+  font-size: 24px
 
 
   

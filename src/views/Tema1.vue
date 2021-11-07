@@ -24,7 +24,7 @@
       .col-lg-4(data-aos='fade-right')
         .tarjeta.bg--1-claro.p-4.hover.rounded-2
           .tarjeta__titulo.color-acento-contenido.d-flex.justify-content-center.align-items-center
-            img(src='@/assets/curso/1.png' style='width: 97px')
+            img(src='@/assets/curso/2.png' style='width: 97px')
             h5.mb-0.ms-5 Transporte de carga
     p.mb-5 Observe en detalle este tipo de clasificación:
     .row.mb-5

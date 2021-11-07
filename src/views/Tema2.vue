@@ -749,27 +749,27 @@
       .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor(style='height: 460px')
             .indicador--hover(v-if="indicadorTarjetaFlip")
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/96.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center Organizar el trabajo de modo que se reduzca el número de trabajadores expuestos.
       .tarjeta.tarjeta-flip.color-secundario
           .tarjeta-flip__contenedor(style='height: 460px')
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/97.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center Implementar jornadas flexibles o turnos de entrada y salida a lo largo del día y otras estrategias para evitar aglomeraciones de los trabajadores en el ingreso y la salida, en los centros de trabajo.
       .tarjeta.tarjeta-flip.color-acento-contenido
           .tarjeta-flip__contenedor(style='height: 460px')
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/98.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center.text-white Coordinar con las Administradoras de Riesgos Laborales - ARL la implementación de las medidas de bioseguridad y autocuidado. 
       .tarjeta.tarjeta-flip.color-primario
           .tarjeta-flip__contenedor(style='height: 460px')
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/99.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center Aislar a los empleados que sean sospechosos, desde el comienzo de síntomas, o desde que sean identificados como contactos estrechos, hasta tener una prueba negativa.
       .tarjeta.tarjeta-flip.color-secundario
           .tarjeta-flip__contenedor(style='height: 460px')
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/100.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center El empleador debe notificar a la ARL sobre los casos sospechosos y confirmados identificados en su empresa.
       .tarjeta.tarjeta-flip.color-primario

@@ -24,116 +24,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Transporte',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Clasificación',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Modalidades',
+            hash: 't_1_2',
           },
         ],
       },
@@ -141,90 +45,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Bioseguridad',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Concepto',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Protocolos',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Implementación ',
             hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Fundamentación Textil',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -266,139 +106,118 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Álvarez, F. (2010). Riesgos Biológicos y bioseguridad. Ecoe Ediciones.',
+      link: '',
+    },
+    {
+      referencia:
+        'Barragán-Coca, M., Palaguachi-Sumba, J., Ortega-Ortega, M. y Paguay-García, M. (2020). Lineamientos que adoptaron los países de Ecuador, Colombia, Perú y Argentina para evitar la propagación del COVID-19 en el transporte público. Polo del Conocimiento, 5(10), p. 948-962. ',
+      link: 'https://dialnet.unirioja.es/servlet/articulo?codigo=7659424',
+    },
+    {
+      referencia:
+        'Betancourt, J., Lores, L., Calzadilla, W., Cruz, G. y Marrero, A. (2014). Necesidad de legislar como contravenciones, las violaciones de normas de bioseguridad e higiene y epidemiología hospitalaria. Correo Científico Médico, 18(1). ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://scielo.sld.cu/scielo.php?pid=s1560-43812014000100010&script=sci_arttext&tlng=en',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Celi, S. (2018). Análisis del comportamiento del transporte público a nivel mundial. Revista ESPACIOS, 39(18), p.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://repositorio.uisek.edu.ec/bitstream/123456789/3042/1/07981015%20CELI%20SANTIAGO%2020-01-2018.pdf ',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Mintransporte. (2020). Guía y ABC - Medidas para la contención del Coronavirus COVID-19. Gov.co.',
+      link: 'https://www.mintransporte.gov.co/publicaciones/8309/guia-y-abc/ ',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Mora, L. (2014). Logística del transporte y distribución de carga. Ecoe Ediciones.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Quintero, J., Ramírez, Y. y Cortázar, A. (2020). Transporte fluvial en Colombia: operación, infraestructura, ambiente, normativa y potencial de desarrollo. Revista Ciudades, Estados y Política, 7(1), p. 49-68.',
+      link: 'https://revistas.unal.edu.co/index.php/revcep/article/view/72778 ',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Autocuidado',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Según la OMS, comprende todo lo que hacemos por nosotros mismos, de forma voluntaria, para establecer y mantener la salud, prevenir y manejar la enfermedad.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Bioseguridad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Medidas preventivas que tienen por objeto minimizar o eliminar el factor de riesgo biológico que pueda llegar a afectar la salud, el medio ambiente o la vida de las personas.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Contagio',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Transmisión de una enfermedad por contacto con el agente patógeno que la causa.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Covid-19',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Enfermedad causada por el nuevo coronavirus, que afecta las vías respiratorias. ',
     },
     {
-      termino: 'Moda',
+      termino: 'Riesgo',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
-    },
-    {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Probabilidad de que ocurra un efecto nocivo para la salud y la gravedad de dicho efecto, como consecuencia de un peligro.',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+        'Red de Clínicas San Pablo. (2016). La higiene de manos - OMS [Video]. YouTube.',
       tipo: 'Video',
-      link: 'https://www.google.com/',
+      link: 'https://www.youtube.com/watch?v=NMmAj1EKdVo',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'VIRTUOSSO.COM. (2020). COVID 19, Medidas De Prevención Contra el Coronavirus [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cOEfBmqFAqU',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'Sánchez, R. y Weikert, F. (2020). Logística internacional pospandemia. Análisis de las industrias aéreas y de transporte marítimo de contenedores. Naciones Unidas. ',
+      tipo: 'Artículo',
+      link:
+        'https://repositorio.cepal.org/bitstream/handle/11362/46656/S2000789_es.pdf?sequence=1&isAllowed=y',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      texto:
+        'MinSaludCol. (2020a). Prevenir el coronavirus empieza por tus manos [Video]. YouTube.',
       tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      link: ['https://youtu.be/9Kruo_oTw8w'],
+    },
+    {
+      texto:
+        'Canal enfermero - Consejo General Enfermería. (2021). Ventilación contra el COVID-19 [Video]. YouTube. ',
+      tipo: 'Video',
+      link: ['https://www.youtube.com/watch?v=5wT5Pcq9IBw'],
+    },
+    {
+      texto:
+        'MinSaludCol. (2020b). Qué es el distanciamiento físico y por qué es importante  [Video]. YouTube.  ',
+      tipo: 'Video',
+      link: ['https://www.youtube.com/watch?v=xh19Oq_5E1Y'],
+    },
+    {
+      texto:
+        'Resolución 777 de 2021. [Ministerio de Salud y Protección Social]. Por medio de la cual se definen los criterios y condiciones para el desarrollo de las actividades económicas, sociales y del Estado y se adopta el protocolo de bioseguridad para la ejecución de estas. Junio 2 de 2021.',
+      tipo: 'Resolucion',
+      descarga: 'downloads/resolucion-777.pdf',
+    },
+    {
+      texto:
+        'OMS. (2012). Reglamento sanitario Internacional. Manual para la inspección de buques y emisión de certificados de sanidad a bordo. ',
+      tipo: 'Reglamento',
+      link: 'downloads/reglamento.pdf',
     },
   ],
   creditos: {
@@ -416,6 +235,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Paula Daniela Díaz León',
+        cargo: 'Experta temática',
+        centro: 'CENIGRAF - Regional Distrito Capital',
+      },
+      {
+        nombre: 'María Inés Machado López',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Revisora metodológica y pedagógica',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrección de estilo',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
     ],
     desarrolloProducto: [
       {
@@ -430,14 +270,20 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Yuly Andrea Rey Quiñonez'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Desarrollo Front-End',
+        nombre: 'Camilo Andres Bolaño Rey',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andres Mauricio Santaella Ochoa',
+        cargo: 'Soporte front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },

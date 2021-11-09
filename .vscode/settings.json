@@ -4,4 +4,7 @@
     "source.fixAll": true
   },
   "eslint.run": "onSave",
+  "debug.console.fontFamily": "Fira Code",
+  "debug.console.fontSize": 12,
+  "editor.fontFamily": "Fira Code",
 }

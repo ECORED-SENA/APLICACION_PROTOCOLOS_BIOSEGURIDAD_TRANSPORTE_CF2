@@ -12,7 +12,7 @@
           p La bioseguridad brinda un enfoque estratégico mediante la implementación de técnicas, principios y prácticas con el fin de prevenir la exposición a agentes como el virus por Covid-19 y, finalmente, establecer un proceso para reconocer, evaluar y mitigar los riesgos.
       .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/13.png')
     Separador
-    #t_2_1_.titulo-segundo.color-acento-botones(data-aos='fade-right')
+    #t_2_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
       h2 2.1 Concepto
     .row.mb-5.align-items-center.g-0
       .col-xl-2: img(src='@/assets/curso/14.png' style='height:284px').d-none.d-xl-block
@@ -137,23 +137,23 @@
       img.position-absolute(src='@/assets/curso/24.svg')(style="bottom: -5%; right: 10%; width: 294px").d-none.d-xl-block
     p.mb-5 Es importante tener en cuenta que la implementación de los protocolos de bioseguridad en el sector requiere un análisis de la actividad de cada empresa, con el fin de establecer las medidas necesarias, teniendo en cuenta:
     .row.mb-5.justify-content-center
-      .col-lg-2.mb-3
+      .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/25.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center Trabajo en casa
-      .col-lg-2.mb-3
+      .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/26.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center Medidas locativas
-      .col-lg-2.mb-3
+      .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/27.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center Capital humano 
-      .col-lg-2.mb-3
+      .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/28.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center  Plan de comunicaciones
-      .col-lg-2.mb-3
+      .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/29.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center Manejo de situaciones de riesgo de contagio.
@@ -164,10 +164,16 @@
     p.mb-5 Y es responsabilidad de los empleadores y trabajadores acatar las siguientes disposiciones para dar cumplimiento al protocolo de bioseguridad adoptado. Observe:
     AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta border-bottom")
       div.p-4(titulo="El empleador debe:")
-        p Actualizar el protocolo de bioseguridad dependiendo de su sector económico y siguiendo los lineamientos establecidos por el Gobierno Nacional para la Covid-19.
-          br
-          br
-          |Dar a conocer a trabajadores y contratistas el nuevo protocolo de bioseguridad. Implementar acciones con el fin de garantizar la continuidad de sus actividades y la protección integral de los empleados.
+        ul.lista-ul--color
+          li 
+            i.fas.fa-angle-right
+            | Actualizar el protocolo de bioseguridad dependiendo de su sector económico y siguiendo los lineamientos establecidos por el Gobierno Nacional para la Covid-19.
+          li
+            i.fas.fa-angle-right
+            |Dar a conocer a trabajadores y contratistas el nuevo protocolo de bioseguridad. Implementar acciones con el fin de garantizar la continuidad de sus actividades y la protección integral de los empleados.
+          li
+            i.fas.fa-angle-right
+            | Implementar acciones con el fin de garantizar la continuidad de sus actividades y la protección integral de los empleados.
       div.p-4(titulo="El trabajador debe:")
         ul.lista-ul--color
           li 
@@ -204,12 +210,12 @@
         .tarjeta-hover-imagen
           .tarjeta-hover-imagen__img: img(src='@/assets/curso/31.jpg')(alt='Texto que describa la imagen' style='width: 100%').m-auto.mb-3
           .tarjeta-hover-imagen__titulo.bg--3.text-white.p-3
-            h5.text-center.mb-0 Distanciamineto físico
+            h5.text-center.mb-0 Distanciamiento físico
       .col-lg-4.mb-3
         .tarjeta-hover-imagen
           .tarjeta-hover-imagen__img: img(src='@/assets/curso/32.jpg')(alt='Texto que describa la imagen' style='width: 100%').m-auto.mb-3
           .tarjeta-hover-imagen__titulo.bg--3.text-white.p-3
-            h5.text-center.mb-0 Distanciamineto físico
+            h5.text-center.mb-0 Uso de tapabocas
       .col-lg-4.mb-3
         .tarjeta-hover-imagen
           .tarjeta-hover-imagen__img: img(src='@/assets/curso/33.jpg')(alt='Texto que describa la imagen' style='width: 100%').m-auto.mb-3
@@ -229,6 +235,8 @@
     .row.mb-.g-0
       .col-lg-5.bg--1-claro.p-0.mb-3
         Scroll
+          
+
       .col-lg-7
         .row.align-items-center.mb-2
           .col-4: img(src='@/assets/curso/36.svg')(alt='Texto que describa la imagen' ).m-auto.mb-3
@@ -300,7 +308,7 @@
           .tarjeta-flip__contenedor(style='min-height: 206px')
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/49.jpg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.d-flex.align-items-center
-              h5.text-center.mb-0  Instalar recordatorios de la técnica de lavado de manos.
+              h5.text-center.mb-0  Limpiar y desinfectar los recipientes que almacenan el alcohol glicerinado.
     p.mb-5 En cuanto al distanciamiento físico entre las personas que se encuentran en el lugar de trabajo o en el entorno, debe ser mínimo de 1 metro, por lo tanto, se requiere: 
     .bg--2-claro.p-5.mb-5
       .row.align-items-center
@@ -356,7 +364,7 @@
             div
               p Realizar la evaluación y adecuación de las condiciones de ventilación y aforo máximo de los lugares, con el fin de minimizar el riesgo de contagio.
             div
-              p Realizar la evaluación y adecuación de las condiciones de ventilación y aforo máximo de los lugares, con el fin de minimizar el riesgo de contagio.
+              p Mantener los grupos de trabajo separados en tiempo y lugar, favoreciendo el distanciamiento físico entre trabajadores de distintas áreas. 
             div
               p Realizar todas las actividades de bienestar que sean posibles en espacios abiertos y asegurando el distanciamiento físico. 
             div
@@ -497,8 +505,9 @@
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/66.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
           h6.text-center La empresa
+    p.mb-5 Estas medidas son adicionales a las disposiciones generales, las cuales se deben cumplir en todo momento.
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg--1-acordeon")
-      .row.p-4(titulo="USUARIO")
+      .row.p-4(titulo="Usuario")
         .col-md-8.mb-4.mb-md-0
           ul.lista-ul--color
             li 
@@ -523,7 +532,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/66.jpg', alt='Texto que describa la imagen')
-      .row.p-4(titulo="MEDIO DE TRANSPORTE")
+      .row.p-4(titulo="Medio de transporte")
         .col-md-8.mb-4.mb-md-0
           ul.lista-ul--color
             li 
@@ -541,7 +550,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/67.jpg', alt='Texto que describa la imagen')
-      .row.p-4(titulo="PARADEROS O TERMINALES")
+      .row.p-4(titulo="Paraderos o terminales")
         .col-md-8.mb-4.mb-md-0
           ul.lista-ul--color
             li 
@@ -556,7 +565,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/68.jpg', alt='Texto que describa la imagen')
-      .row.p-4(titulo="CONDUCTORES")
+      .row.p-4(titulo="Conductores")
         .col-md-8.mb-4.mb-md-0
           ul.lista-ul--color
             li 
@@ -571,7 +580,7 @@
         .col-md-4
           figure
             img(src='@/assets/curso/69.jpg', alt='Texto que describa la imagen')
-      .row.p-4(titulo="LA EMPRESA")
+      .row.p-4(titulo="La empresa")
         .col-md-8.mb-4.mb-md-0
           ul.lista-ul--color
             li 
@@ -594,7 +603,7 @@
         .tarjeta-slide-up.mt-3.h-100(@mouseover="mostrarIndicador = false")
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
             .indicador--hover(v-if="mostrarIndicador")
-            h4.mb-0.text-center Boton 1
+            h2.mb-0.text-center 1
           .tarjeta-slide-up__content
             .contenido.py-5.px-3.mt-3
               img(src='@/assets/curso/71.png', alt='Texto que describa la imagen').m-auto.mb-3
@@ -602,7 +611,7 @@
       .col-lg-3
         .tarjeta-slide-up.mt-3.h-100
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
-            h4.mb-0.text-center Boton 2
+            h2.mb-0.text-center  2
           .tarjeta-slide-up__content
             .contenido.py-5.px-3.mt-3
               img(src='@/assets/curso/72.png', alt='Texto que describa la imagen').m-auto.mb-3
@@ -610,7 +619,7 @@
       .col-lg-3
         .tarjeta-slide-up.mt-3.h-100
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
-            h4.mb-0.text-center Boton 3
+            h2.mb-0.text-center  3
           .tarjeta-slide-up__content
             .contenido.py-5.px-3.mt-3
               img(src='@/assets/curso/73.png', alt='Texto que describa la imagen').m-auto.mb-3
@@ -618,7 +627,7 @@
       .col-lg-3
         .tarjeta-slide-up.mt-3.h-100
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
-            h4.mb-0.text-center Boton 4
+            h2.mb-0.text-center  4
           .tarjeta-slide-up__content
             .contenido.py-5.px-3.mt-3
               img(src='@/assets/curso/74.png', alt='Texto que describa la imagen').m-auto.mb-3
@@ -674,7 +683,7 @@
       .tarjeta.color-secundario.p-3(x="28%" y="17%" numero="")
         p Usar en todo momento el tapabocas.
       .tarjeta.color-secundario.p-3(x="45%" y="10%" numero="")
-        p Usar en todo momento el tapabocas.
+        p Permanecer, en la medida de lo posible, en silencio en el aeropuerto y al interior de la aeronave.
       .tarjeta.color-secundario.p-3(x="60%" y="17%" numero="")
         p Notificar de manera inmediata a la tripulación de cabina si durante el vuelo algún pasajero presenta alguno de estos síntomas: tos, dificultad respiratoria, dolor de garganta, o fatiga.
       .tarjeta.color-secundario.p-3(x="50%" y="30%" numero="")
@@ -739,7 +748,7 @@
     h3(data-aos='fade-right') Transporte marítimo y transporte fluvial
     .row.mb-5
       .col-lg-6(data-aos='fade-right')
-        p Para estas modalidades de transporte, la Superintendencia de Transporte informó los lineamientos y acciones preventivas que deben adoptar las Sociedades Portuarias Marítimas y las Sociedades Portuarias Fluviales ante el Covid-19, donde se recomienda que estas zonas apliquen el protocolo establecido por la resolución 850 de 2017 del Ministerio de Transporte, con el fin de facilitar la aplicación del Reglamento Sanitario Internacional
+        p Para estas modalidades de transporte, la Superintendencia de Transporte informó los lineamientos y acciones preventivas que deben adoptar las Sociedades Portuarias Marítimas y las Sociedades Portuarias Fluviales ante el Covid-19, donde se recomienda que estas zonas apliquen el protocolo establecido por la resolución 850 de 2017 del Ministerio de Transporte, con el fin de facilitar la aplicación del Reglamento Sanitario Internacional.
           br
           br
           |Adicionalmente a las disposiciones establecidas en la Resolución 859 de 2017, se recomienda seguir todas las medidas generales vistas a lo largo del curso, las cuales se implementan de igual manera para esta modalidad de transporte.

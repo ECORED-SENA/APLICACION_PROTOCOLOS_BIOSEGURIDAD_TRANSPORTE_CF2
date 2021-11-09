@@ -13,22 +13,22 @@
       .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/0.png')
     Separador 
     #t_1_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
-      h2 1.1. Clasificación 
+      h2 1.1 Clasificación 
     p.mb-5 Como ya se ha indicado, el transporte puede hacerse de manera terrestre, aérea o fluvial/marítima. A continuación, se establecen las características principales de cada una de estas formas, de acuerdo con el elemento transportado:
     .row.mb-5.justify-content-between.mx-5
-      .col-lg-4(data-aos='fade-right')
-        .tarjeta.bg--1-claro.p-4.hover.rounded-2
+      .col-lg-4(data-aos='fade-right').mb-3
+        .tarjeta.bg--1-claro.p-4.hover.rounded-2.mb-3
           .tarjeta__titulo.color-acento-contenido.d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/1.png' style='width: 97px')
-            h5.mb-0.ms-5 Transporte de pasajeros
-      .col-lg-4(data-aos='fade-right')
-        .tarjeta.bg--1-claro.p-4.hover.rounded-2
+            h5.mb-0.ps-3 Transporte de pasajeros
+      .col-lg-4(data-aos='fade-right').mb-3
+        .tarjeta.bg--1-claro.p-4.hover.rounded-2.mb-3
           .tarjeta__titulo.color-acento-contenido.d-flex.justify-content-center.align-items-center
             img(src='@/assets/curso/2.png' style='width: 97px')
-            h5.mb-0.ms-5 Transporte de carga
+            h5.mb-0.ps-3 Transporte de carga
     p.mb-5 Observe en detalle este tipo de clasificación:
     .row.mb-5
-      .col-lg-6(data-aos='fade-right')
+      .col-lg-6(data-aos='fade-right').mb-3
         .tarjeta.tarjeta-slyder.bg--3-claro.p-4.h-100
           SlyderE(indicadores="centro")
             div.p-5
@@ -50,7 +50,7 @@
               img.mb-3(src='@/assets/curso/5.jpg', alt='Texto que describa la imagen')
               h4 Vía aérea
               p Según la Organización de Aviación Civil Internacional (ICAO), para el caso de pasajeros por líneas aéreas, se evidenció una disminución del 53,5 % en marzo de 2020, en comparación con el año anterior. Sin embargo, al igual que el transporte de pasajeros por vía terrestre, la reactivación del transporte aéreo ha avanzado de manera positiva para este año (2021), según lo indican las cifras del Ministerio de Transporte.
-      .col-lg-6(data-aos='fade-right')
+      .col-lg-6(data-aos='fade-right').mb-3
         .tarjeta.tarjeta-slyder.bg--3-claro.p-4.h-100
           SlyderE(indicadores="centro")
             div.p-5
@@ -77,8 +77,8 @@
     p.mb-5 Existen diferentes formas de mover físicamente un elemento (mercancías o personas) de un lugar a otro, pero en la mayoría de los casos las modalidades de transporte se concretan en las siguientes:
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1. 
-      spam.fw-normal Modalidades de transporte\
-    SlyderD.mb-5(:datos="datosSlyder")
+      spam.fw-normal Modalidades de transporte
+    SlyderC.mb-5(:datos="datosSlyder")
     .row.mb-5.justify-content-center
       .col-lg-8
         .cajon-adorno.color-secundario.p-5

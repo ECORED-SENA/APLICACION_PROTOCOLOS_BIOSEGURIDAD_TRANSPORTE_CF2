@@ -10,12 +10,12 @@
             img(src="@/assets/template/emparejamiento.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Relacionar conceptos
+          h2 Complete los espacios en blanco
         p.mb-4 La siguiente actividad tiene como propósito comprender la importancia de las medidas de bioseguridad ante el riesgo por Covid-19.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 De acuerdo con el banco de palabras dispuesto, complete los espacios en blanco según la información vista en el componente formativo 2
+              p.fw-bold.mb-0 De acuerdo con el banco de palabras dispuesto, complete los espacios en blanco según la información vista en este componente formativo.
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad-1/story.html')" target="_blank")
                 span Realizar

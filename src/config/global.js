@@ -6,6 +6,7 @@ export default {
       'Se propone, de acuerdo con las medidas establecidas por el gobierno nacional y los principios de bioseguridad, el protocolo aplicable al sector transporte, para reconocer estrategias de prevención y manejo de situaciones de riesgo.',
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal2.png'),
     fondoContenido: require('@/assets/curso/banner-contenido.png'),
+    fondoBannerInterno: require('@/assets/curso/00.png'),
   },
   menuPrincipal: {
     menu: [
@@ -294,7 +295,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Jhana Johanna Bustillo Ardila',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

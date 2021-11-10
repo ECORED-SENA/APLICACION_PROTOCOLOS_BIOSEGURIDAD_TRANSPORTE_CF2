@@ -1,6 +1,7 @@
 <template lang="pug">
 .scroll.h-100
-  .scroll-horizontal-container
+  .scroll-horizontal-container.position-relative(@mouseover="indicadorScroll = false")
+    .indicador--scroll(v-if='indicadorScroll')
     .screen.m-5
       img(src='@/assets/curso/s1.svg' )
     .screen.m-5
@@ -24,7 +25,9 @@
 export default {
   name: 'Scroll',
   data() {
-    return {}
+    return {
+      indicadorScroll: true,
+    }
   },
   mounted() {
     ;(function() {
@@ -59,4 +62,23 @@ export default {
     display: flex
     justify-content: center
     align-items: center
+.indicador
+  &__container
+    position: relative
+    z-index: 1001
+  &--scroll
+    width: 100%
+    position: absolute
+    top: 50%
+    left: 50%
+    pointer-events: none
+    z-index: 1001
+    &:after
+      content: ''
+      display: block
+      position: absolute
+      width: 100px
+      height: 100px
+      z-index: 1001
+      background-image: url('../assets/curso/scroll.svg')
 </style>

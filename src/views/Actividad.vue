@@ -28,14 +28,14 @@
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Actividad didáctica 2
-        p.mb-4 
+          h2 Encuentra el cumplimiento.
+        p.mb-4 Orientar al aprendiz sobre un conocimiento generalizado de los protocolos de bioseguridad sobre Covid-19.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Descripción de la actividad didáctica.
+              p.fw-bold.mb-0  Estimado aprendiz, favor marcar con un circulo las actividades, o conductas que estén cumpliendo los protocolos de bioseguridad en el transporte, de acuerdo a la normativa implementada para atender la contingencia sanitaria del COVID 19. 
             .col-auto
-              a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/actividades/actividad-2/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
 

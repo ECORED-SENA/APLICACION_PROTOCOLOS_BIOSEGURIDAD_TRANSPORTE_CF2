@@ -472,14 +472,14 @@
     h5.mb-4 “Protocolo de lavado de manos”.
     .tarjeta-videos.p-5
       .row.mb-5.justify-content-center
-        .col-lg-8
+        .col-lg-10
           figure.mb-5
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 La ventilación es una de las medidas más prácticas y al alcance de todos, permite generar ambientes sanos y libres de virus. Esta información está a su disposición en el video <b>“Adecuación de la ventilación”</b>. 
     .tarjeta-videos.p-5
       .row.mb-5.justify-content-center
-        .col-lg-8
+        .col-lg-10
           figure.mb-5
             .video
               iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -605,7 +605,7 @@
             .indicador--hover(v-if="mostrarIndicador")
             h2.mb-0.text-center 1
           .tarjeta-slide-up__content
-            .contenido.py-5.px-3.mt-3
+            .contenido.pt-4.pb-0.px-3.mt-3
               img(src='@/assets/curso/71.png', alt='Texto que describa la imagen').m-auto.mb-3
               p Coordinar con las autoridades de policía y sanitaria el protocolo de Emergencia de Salud Pública de Importancia Internacional ESPII, especificando las actividades que permitan reducir el riesgo en el terminal.
       .col-lg-3
@@ -613,7 +613,7 @@
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
             h2.mb-0.text-center  2
           .tarjeta-slide-up__content
-            .contenido.py-5.px-3.mt-3
+            .contenido.pt-4.pb-0.px-3.mt-3
               img(src='@/assets/curso/72.png', alt='Texto que describa la imagen').m-auto.mb-3
               p Coordinar que se cumpla cualquier medida que imponga la autoridad sanitaria.
       .col-lg-3
@@ -621,7 +621,7 @@
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
             h2.mb-0.text-center  3
           .tarjeta-slide-up__content
-            .contenido.py-5.px-3.mt-3
+            .contenido.pt-4.pb-0.px-3.mt-3
               img(src='@/assets/curso/73.png', alt='Texto que describa la imagen').m-auto.mb-3
               p Controlar que el acceso al terminal aeroportuario por parte de los pasajeros sea máximo dos horas antes de la hora prevista para la salida del vuelo nacional o tres para vuelos internacionales.
       .col-lg-3
@@ -629,7 +629,7 @@
           .rounded-3.tarjeta-slide-up__titulo.bg--2.p-4
             h2.mb-0.text-center  4
           .tarjeta-slide-up__content
-            .contenido.py-5.px-3.mt-3
+            .contenido.pt-4.pb-0.px-3.mt-3
               img(src='@/assets/curso/74.png', alt='Texto que describa la imagen').m-auto.mb-3
               p Acordar con la autoridad aeronáutica la cantidad de puertas de acceso habilitadas, y disponer de personal de seguridad en cada una de ellas.
     p.mb-5 Si se trata de aerolíneas y explotadores de aeronaves, se debe dar cumplimiento a las siguientes disposiciones antes del vuelo, para dar acatamiento al protocolo de bioseguridad:
@@ -826,15 +826,18 @@
 </template>
 
 <script>
+import BannerInterno from '../components/BannerInterno'
 import Scroll from '../components/Scroll.vue'
 export default {
   name: 'Tema2',
   components: {
     Scroll,
+    BannerInterno,
   },
   data: () => ({
     mostrarIndicador: true,
     indicadorTarjetaFlip: true,
+    indicadorScroll: true,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -914,4 +917,9 @@ export default {
     content: url(../assets/curso/flecha-derecha.svg) !important
   .fas.fa-chevron-left:before
     content: url(../assets/curso/flecha-izquierda.svg) !important
+.cajon-b.abajo-derecha:before
+  top: 67%
+  left: 56%
+  right: 0
+  bottom: 0
 </style>

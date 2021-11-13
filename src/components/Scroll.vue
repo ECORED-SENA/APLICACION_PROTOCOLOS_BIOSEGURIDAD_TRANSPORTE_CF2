@@ -70,7 +70,7 @@ export default {
     width: 100%
     position: absolute
     top: 50%
-    left: 50%
+    left: 40%
     pointer-events: none
     z-index: 1001
     &:after

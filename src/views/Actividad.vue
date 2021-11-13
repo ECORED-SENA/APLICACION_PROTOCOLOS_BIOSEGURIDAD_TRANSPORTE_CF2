@@ -28,7 +28,7 @@
             img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Encuentra el cumplimiento.
+          h2 Encuentra el cumplimiento
         p.mb-4 Orientar al aprendiz sobre un conocimiento generalizado de los protocolos de bioseguridad sobre Covid-19.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            

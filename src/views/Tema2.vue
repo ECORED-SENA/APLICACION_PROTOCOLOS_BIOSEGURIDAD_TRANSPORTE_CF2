@@ -12,7 +12,7 @@
           p La bioseguridad brinda un enfoque estratégico mediante la implementación de técnicas, principios y prácticas con el fin de prevenir la exposición a agentes como el virus por Covid-19 y, finalmente, establecer un proceso para reconocer, evaluar y mitigar los riesgos.
       .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/13.png')
     Separador
-    #t_2_1.titulo-segundo.color-acento-botones(data-aos='fade-right')
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.1 Concepto
     .row.mb-5.align-items-center.g-0
       .col-xl-2: img(src='@/assets/curso/14.png' style='height:284px').d-none.d-xl-block
@@ -128,7 +128,7 @@
               h4 Ventilación
               p La ventilación adecuada con aire del exterior puede contribuir a minimizar la concentración de contaminantes como el virus por Covid-19, debido a que puede diluir el aire contaminado dentro del espacio más rápidamente.
     Separador
-    #t_2_2.titulo-segundo.color-acento-botones(data-aos='fade-right')
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.2 Protocolos 
     p.mb-5 Un protocolo de bioseguridad tiene el objetivo de prevenir, mitigar y contener la propagación de la Covid-19 en el desarrollo de cualquier actividad. Este debe incluir los lineamientos que permitan la orientación y las medidas que se requieren para mitigar la transmisión de virus.
     .bg--1-claro.p-5.position-relative.mb-5
@@ -156,7 +156,7 @@
       .col-xl-2.mb-3
         .tarjeta.bg--1-claro.p-4.h-100.hover-morado
           img(src='@/assets/curso/29.svg')(alt='Texto que describa la imagen' style='width: 101px').m-auto.mb-3
-          h6.text-center Manejo de situaciones de riesgo de contagio.
+          h6.text-center Manejo de situaciones de riesgo de contagio
     .row.mb-5.justify-content-center(data-aos='zoom-in-up')
       .col-lg-8
         .cajon-adorno.color-secundario.p-5
@@ -787,7 +787,7 @@
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center 
     Separador
-    #t_2_3.titulo-segundo.color-acento-botones(data-aos='fade-right')
+    #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Implementación  
     .row.mb-5.align-items-center
       .col-lg-6(data-aos='fade-right'): img(src='@/assets/curso/94.png')

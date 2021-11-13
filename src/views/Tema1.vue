@@ -7,10 +7,10 @@
       .titulo-principal__numero
         span.text-white 1
       h1 Transporte
-    .row.mb-5
-      .col-lg-6(data-aos='fade-right')
+    .row.mb-5.align-items-center
+      .col-lg-7(data-aos='fade-right')
         p El transporte es fundamental en la dinámica económica e industrial de cualquier país, permitiendo el flujo de productos. Normalmente, se define como el desplazamiento de individuos y/o de carga, y, por lo general, <b>se hace por medio de tres vías: aérea, terrestre, o fluvial/marítima.</b> Estas tres son de uso mayor en el territorio colombiano.
-      .col-lg-6(data-aos='fade-left'): img(src='@/assets/curso/0.png')
+      .col-lg-5(data-aos='fade-left'): img(src='@/assets/curso/0.png')
     Separador 
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.1 Clasificación 

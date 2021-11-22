@@ -72,15 +72,14 @@
                 br
                 | A nivel marítimo, las caídas en el tráfico de contenedores se vieron especialmente en los meses de abril y mayo de 2020; asimismo, el transporte de carga terrestre presentó una reducción de 8,1 % en el volumen movilizado. No obstante, de la misma forma que el transporte de pasajeros, el transporte de carga presentó una tendencia positiva para este año (2021).  
     Separador
-    #t_1_2.titulo-segundo.color-acento-contenido.mb-5(data-aos='fade-right')
+    #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 Modalidades
-    p.mb-5 Existen diferentes formas de mover físicamente un elemento (mercancías o personas) de un lugar a otro, pero en la mayoría de los casos las modalidades de transporte se concretan en las siguientes:
-    .titulo-sexto.color-acento-contenido
-      h5 Tabla 1. 
-      spam.fw-normal Modalidades de transporte
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/gqxEBYVW7eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-5 Existen diferentes formas de mover físicamente un elemento (mercancías o personas) de un lugar a otro, pero en la mayoría de los casos las modalidades de transporte se concretan en las siguientes:
+    .titulo-sexto.color-acento-contenido
+      h5 Modalidades de transporte
     SlyderC.mb-5(:datos="datosSlyder")
     .row.mb-5.justify-content-center
       .col-lg-8

@@ -388,9 +388,6 @@
       br
       br
       |Se establecen las siguientes disposiciones:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .tarjeta.tarjeta-slyder.bg--3-claro.p-4.mb-5
       SlyderE(indicadores="centro").p-5
         .row.mx-5
@@ -446,6 +443,22 @@
           .col-md-6
             figure
               img(src='@/assets/curso/59.png', alt='Texto que describa la imagen')
+    .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
+          .row.justify-content-center.align-items-center.position-relative
+            img.position-absolute.d-none.d-lg-block(src="@/assets/curso/29.svg" alt="Adornos flotantes" style="width: 150px ; left: 5% ; top: -90% ")
+            .col-4.col-sm-2.col-lg-1
+            .col-lg-8
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-small.mb-0 A continuación, en el siguiente enlace podrá visualizar el video "Limpieza y desinfección en domicilios", para conocer algunas recomendaciones de limpieza y desinfección diaria en las superficies que más se tocan:
+                .col-sm-auto
+
+                  a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=RUkbdiB8_10&feature=emb_title' target='_blank')
+                    span.text-white Enlace
+                    i.fas.fa-link.text-white
+    //- figure.mb-5
+    //-   .video
+    //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     h3(data-aos='fade-right') Protocolo limpieza y desinfección 
     p.mb-5 La limpieza y desinfección de los espacios se realiza de la siguiente manera:
     figure.mb-5(data-aos='zoom-in-up')
@@ -485,7 +498,7 @@
         .col-lg-10
           figure.mb-5
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/5wT5Pcq9IBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 A continuación, se encuentran las medidas que garantizan el cumplimiento de los protocolos de bioseguridad en el sector del transporte por parte de: 
     .row.mb-5.justify-content-center
       .col-lg-2.mb-3

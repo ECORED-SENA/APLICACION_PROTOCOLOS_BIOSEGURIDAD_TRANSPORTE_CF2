@@ -475,14 +475,14 @@
         .col-lg-10
           figure.mb-5
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/gqxEBYVW7eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 La ventilación es una de las medidas más prácticas y al alcance de todos, permite generar ambientes sanos y libres de virus. Esta información está a su disposición en el video <b>“Adecuación de la ventilación”</b>. 
     .tarjeta-videos.p-5
       .row.mb-5.justify-content-center
         .col-lg-10
           figure.mb-5
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     p.mb-5 A continuación, se encuentran las medidas que garantizan el cumplimiento de los protocolos de bioseguridad en el sector del transporte por parte de: 
     .row.mb-5.justify-content-center
       .col-lg-2.mb-3

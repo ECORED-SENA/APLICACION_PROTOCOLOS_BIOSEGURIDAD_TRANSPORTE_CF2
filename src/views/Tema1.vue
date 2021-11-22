@@ -78,6 +78,9 @@
     .titulo-sexto.color-acento-contenido
       h5 Tabla 1. 
       spam.fw-normal Modalidades de transporte
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gqxEBYVW7eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     SlyderC.mb-5(:datos="datosSlyder")
     .row.mb-5.justify-content-center
       .col-lg-8

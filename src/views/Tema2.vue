@@ -388,6 +388,9 @@
       br
       br
       |Se establecen las siguientes disposiciones:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .tarjeta.tarjeta-slyder.bg--3-claro.p-4.mb-5
       SlyderE(indicadores="centro").p-5
         .row.mx-5
@@ -469,14 +472,14 @@
       .tarjeta.color-secundario.p-3(x="78%" y="30%" numero="")
         p Los tapabocas y guantes deben ir separados en doble bolsa color negro, la cual no debe ser abierta por el personal que realiza el reciclaje de oficio. Además, deben ir separados de los residuos aprovechables, los cuales van en bolsa blanca.
     p.mb-5 Es comprensible que quiera conocer más sobre el protocolo de bioseguridad establecido para atender la contingencia sanitaria debida al Covid-19, por esta razón, se le invita a consultar los siguientes videos, que serán de ayuda y explicación, y se encuentran en el material complementario:
-    h5.mb-4 “Protocolo de lavado de manos”.
+    h5.mb-4 “La higiene de manos”.
     .tarjeta-videos.p-5
       .row.mb-5.justify-content-center
         .col-lg-10
           figure.mb-5
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/gqxEBYVW7eg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5 La ventilación es una de las medidas más prácticas y al alcance de todos, permite generar ambientes sanos y libres de virus. Esta información está a su disposición en el video <b>“Adecuación de la ventilación”</b>. 
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/NMmAj1EKdVo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    p.mb-5 La ventilación es una de las medidas más prácticas y al alcance de todos, permite generar ambientes sanos y libres de virus. Esta información está a su disposición en el video <b>“Ventilación contra el COVID-19”</b>. 
     .tarjeta-videos.p-5
       .row.mb-5.justify-content-center
         .col-lg-10

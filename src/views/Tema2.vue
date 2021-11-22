@@ -445,12 +445,12 @@
               img(src='@/assets/curso/59.png', alt='Texto que describa la imagen')
     .tarjeta.bg--2-claro.p-4.mb-5.rounded-0.mt-5
           .row.justify-content-center.align-items-center.position-relative
-            img.position-absolute.d-none.d-lg-block(src="@/assets/curso/29.svg" alt="Adornos flotantes" style="width: 150px ; left: 5% ; top: -90% ")
+            img.position-absolute.d-none.d-lg-block(src="@/assets/curso/29.svg" alt="Adornos flotantes" style="width: 150px ; left: 5% ; top: -60% ")
             .col-4.col-sm-2.col-lg-1
             .col-lg-8
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p.text-small.mb-0 A continuación, en el siguiente enlace podrá visualizar el video "Limpieza y desinfección en domicilios", para conocer algunas recomendaciones de limpieza y desinfección diaria en las superficies que más se tocan:
+                  p.mb-0 A continuación, en el siguiente enlace podrá visualizar el video <b>"Limpieza y desinfección en domicilios"</b>, para conocer algunas recomendaciones de limpieza y desinfección diaria en las superficies que más se tocan:
                 .col-sm-auto
 
                   a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=RUkbdiB8_10&feature=emb_title' target='_blank')
@@ -656,7 +656,7 @@
             figure
               img(src='@/assets/curso/75.jpg', alt='Texto que describa la imagen')
           .col-md-7.mb-4.mb-md-0
-            p Informar a los pasajeros internacionales que deben diligenciar en su totalidad el formulario de pre check-in migratorio, dispuesto en la aplicación "Check-Mig”, ya sea para adelantar el proceso de salida o ingreso al territorio nacional.
+            p Informar a los pasajeros internacionales que deben diligenciar en su totalidad el formulario de pre <i>check-in</i> migratorio, dispuesto en la aplicación <i>"Check-Mig”</i>, ya sea para adelantar el proceso de salida o ingreso al territorio nacional.
         .row(titulo="2")
           .col-md-5
             figure

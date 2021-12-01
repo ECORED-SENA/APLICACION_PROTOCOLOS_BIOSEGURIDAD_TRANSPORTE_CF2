@@ -60,10 +60,7 @@
             div.p-5
               img.mb-3(src='@/assets/curso/7.jpg', alt='Texto que describa la imagen')
               h4 Transporte de carga
-              p En mayo de 2020, el volumen del comercio mundial de bienes cayó 17,7 %, respecto al mismo mes del año 2019.
-                br
-                br
-                | A nivel marítimo, las caídas en el tráfico de contenedores se vieron especialmente en los meses de abril y mayo de 2020; asimismo, el transporte de carga terrestre presentó una reducción de 8,1 % en el volumen movilizado. No obstante, de la misma forma que el transporte de pasajeros, el transporte de carga presentó una tendencia positiva para este año (2021). 
+              p Es un factor vital en la economía del país, pues permite la movilización de todos los productos de una región a otra. Desde el inicio de la pandemia, el transporte de carga no se ha detenido, asegurando el abastecimiento de todo tipo de productos en las diferentes regiones del país. 
             div.p-5
               img.mb-3(src='@/assets/curso/7.jpg', alt='Texto que describa la imagen')
               h4 Transporte de carga

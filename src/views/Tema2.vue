@@ -454,8 +454,8 @@
                 .col-sm-auto
 
                   a.boton.color-acento-contenido(href='https://www.youtube.com/watch?v=RUkbdiB8_10&feature=emb_title' target='_blank')
-                    span.text-white Enlace
-                    i.fas.fa-link.text-white
+                    span.text-white Video
+                    i.fas.fa-video.text-white
     //- figure.mb-5
     //-   .video
     //-     iframe(width="560" height="315" src="https://www.youtube.com/embed/RUkbdiB8_10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -797,11 +797,6 @@
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/100.png')})`}")
             .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
               h5.text-center El empleador debe notificar a la ARL sobre los casos sospechosos y confirmados identificados en su empresa.
-      .tarjeta.tarjeta-flip.color-primario
-          .tarjeta-flip__contenedor.h-100(style='height: 460px')
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/avatar.svg')})`}")
-            .tarjeta-flip__contenido.d-flex.align-items-center.p-4.p-xl-5
-              h5.text-center 
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Implementación  
